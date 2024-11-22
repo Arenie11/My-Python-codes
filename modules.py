@@ -57,14 +57,12 @@
 
 # from functionassignment import name
 # print('hello' + '' + name)
+
 #part 2
 
 from functionassignment import get_user_input as ao
 print(ao)
 
-# def main():
-#     print(ao)
-# main()
 
 
 
