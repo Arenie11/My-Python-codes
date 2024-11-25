@@ -29,17 +29,17 @@ print('hello {name} i heard you are {age} years old'.format(name=first_name,age=
 '''
 
 #f-string
-#name= 'zainab'
-#age= 23
+# name= 'zainab'
+# age= 23
 #print(f"hello{name} i heard you are {age} years old")
 #string methods and property 
-#name= 'nathaniel'
+# name= 'nathaniel'
 #print(name.capitalize())
 #print(name.count('a'))
 #print(name.endswith('l'))
 #print(name.swapcase())
 #print((len(name)))
-#print(name.replace('nathaniel','zainab'))
+# print(name.replace('nathaniel','zainab'))
 #print(name.capitalize().count('a'))
 
 #Assignment
@@ -48,8 +48,12 @@ print('hello {name} i heard you are {age} years old'.format(name=first_name,age=
 # time= 12.00
 # print(name)
 # print(name,str(age), str(time))
-# full_name= ' Alugo zainab'
+#full_name= ' Alugo zainab'
 # print(len(full_name))
 # print(full_name.upper())
 # print(full_name.count('a'))
 # print(full_name.replace('Alugo zainab', 'Nathanial Nosa'))
+
+# name = 'zainab'
+# first_letter= name[0]
+# print(first_letter)

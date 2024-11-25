@@ -1,17 +1,16 @@
 # ''''
 # Dictionary in python is just like an object in javascript & php
-# An object consists of key and value, between the keY and valUE we use the column":" and end 
-# with a comma to give room for the next key and value.
+# An object consists of key and value, between the keY and valUE we use the column":" and end with a comma to give room for the next key and value.
 # to write an object we use the curly bracket'{}'
 
 # '''
-person= {
-'f_name': 'John',
-'l_name': 'Doe',
-'age': 23,
-'m_status': 'married',
-'disability': False
-}
+# person= {
+# 'f_name': 'John',
+# 'l_name': 'Doe',
+# 'age': 23,
+# 'm_status': 'married',
+# 'disability': False
+# }
 
 #access value
 #print(person['f_name'])
@@ -63,12 +62,12 @@ person= {
 
 #Assignment
 # ''' QUESTION 1'''
-# person= {
-#     'name': 'Zainab Alugo',
-#     'age': 23,
-#     'm_status': 'single',
-#     'disability': False 
-#}
+person= {
+    'name': 'Zainab Alugo',
+    'age': 23,
+    'm_status': 'single',
+    'disability': False 
+}
 '''QUESTION 2'''
 # print(person['age'])
 # person['hobbies']= 'reading'
@@ -77,7 +76,7 @@ person= {
 # '''QUESTION 3'''?
 # person2= person.copy()
 # person2['height']= 45.2
-# print('person2')
+# print(person2)
 #or copy and paste
 # person1= {
 #     'name': 'Zainab Alugo',

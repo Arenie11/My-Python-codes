@@ -34,27 +34,40 @@
 #Assignment
 #''''''part ONE''''
 
+# def calculator(x, y):
+#     add= x + y
+#     print(add)
+#     sub= x - y
+#     print(sub)
+#     div= x / y
+#     print(div)
+#     mul= x * y
+#     print(mul)
+# calculator(5, 10)
+
+#question 2
 # def getsum(num1, num2):
 #     num1= float(input('enter mum one'))
 #     num2= float(input('enter num two'))
 #     total= num1+ num2
 #     return(f"{total}")
-# print(getsum('',''))
+#print(getsum('',''))
 #''''''PART 2''''
 
 # def getsum(num1, num2= 7):
 #     num1= float(input('enter number one'))
-#     # num2= 7
+#     num2= 7
 #     total= num1+num2
 #     return f'{total}'
-# print(getsum(2))
+# print(getsum(''))
 
-# def getsum(num1, num2, num3):
+# def getsum(num1, num2, num3=3):
 #     num1= float(5.6)
 #     num2= float(10.6)
 #     num3= float(input('enter num three'))
-#     total= num1+num2+num3
-#     return f"{total}"
+#     add = num1+num2+num3
+#     addsub= (num1 + num2) - num3
+#     return f"{add} and {addsub}"
 # print(getsum('','',''))
 
 # def getsumsub(num1, num2, num3):

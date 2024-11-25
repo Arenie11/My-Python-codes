@@ -66,6 +66,7 @@ print(ao)
 
 
 
+
 # #part 3
 # import calendar
 # year= int(input("enter the year:"))

@@ -27,6 +27,7 @@
 # else:
 #     print(f'you are not registered for the exam')
 
+#elif 
 #create a form for weather
 # #rainy, sunny, harmattan 
 # weather= input( 'enter weather').lower()
@@ -52,7 +53,7 @@
 # x=6
 # if x > 2:
 #     if x < 10: 
-#         print(f'x is greater than and x is less than 10')
+#         print(f'x is greater than 2 and x is less than 10')
 
 #logical operators
 #And
@@ -71,7 +72,7 @@
 #     print(f'{x} is greater than 2 and less than 10 ')
 # else:
 #     print('false')
-
+#membership operators
 # number = [1,2,3,4,5,6]
 # x=6
 # if x in number: 
@@ -107,13 +108,15 @@
 #         print(f'{number} is an odd number')
 # even_odd()
 '''QUESTION 2'''
-# def vow_con():
-#     Alphabet= input('enter any alphabet').lower()
-#     if Alphabet is {'a,e,i,o,u'}:
-#         print(f'it is a vowel letter')
-#     else: 
-#         print(f'it is a consonant letter')
-# vow_con()
+
+# value = input('enter any alphabet: ').lower()
+# Alphabet = ['a', 'e', 'i', 'o', 'u']
+# if value in Alphabet:
+#         print(f'{value} is a vowel letter')
+# elif value.isdigit():
+#         print(f'{value} cannot be an alphabet')
+# else: 
+#         print(f'{value} is a consonant letter')
 
 '''PART TWO'''
 # def compare(num1,num2, num3):
@@ -127,9 +130,23 @@
 #     else:
 #         print(f'{num3} is greater ')
 # compare('', '', '')
+#OR
+# def compare(num1,num2, num3):
+#     num1= input('enter any number')
+#     num2= input('enter any number')
+#     num3= input('enter any number')
+#     if (num1>num2) and (num1>num3):
+#         print(f'{num1} is greater')
+#     elif (num2>num3) and (num2>=num1):
+#         print(f'{num2} is greater ')
+#     elif (num3>num2) and (num3>num1):
+#         print(f'{num3} is greater ')
+#     else:
+#         print(f'they are equal')
+# compare('', '', '')
 '''QUESTION 2'''
-# def addition():
-#     x+y
+# def add(x,y):
+    
 
 # print( '''Welcome to, Alugo calculator
 #            please select a number to proceed:
@@ -149,6 +166,47 @@
 #     sub= num1-num2
 #     return f'{sub}'
 # print(addnum('',''))
+
+#or correct one
+# def add(x,y):
+#     return x + y
+# def sub(x,y):
+#     return x - y
+# def div(x,y):
+#     return x / y
+# def mul(x,y):
+#     return x * y
+
+# print( '''Welcome to, Alugo's calculator
+#            please select a number to proceed:
+#       1. Addition                           2. Subtraction
+#       3. division                           4. Multiplication
+# ''')
+# select_num= int(input('select any number: '))
+# if select_num==1:
+#     num1= int(input('enter any num: '))
+#     num2= int(input('enter any num: '))
+#     total= num1 + num2
+#     print(f'{num1} + {num2} = {total}')
+# elif select_num==2:
+#     num1= int(input('enter any num: '))
+#     num2= int(input('enter any num: '))
+#     total= num1 - num2
+#     print(f'{num1} - {num2} = {total}')
+# elif select_num==3:
+#     num1= int(input('enter any num: '))
+#     num2= int(input('enter any num: '))
+#     total= num1 / num2
+#     print(f'{num1} / {num2} = {total}')
+# elif select_num==4:
+#     num1= int(input('enter any num: '))
+#     num2= int(input('enter any num: '))
+#     total= num1 * num2
+#     print(f'{num1} * {num2} = {total}')
+# else:
+#     print(f' you have entered a wrong selection')
+
+
 
 '''QUESTION 3'''
 #grading system
